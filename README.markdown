@@ -15,7 +15,6 @@ My emacs yasnippets...
     (yas/initialize)
 
     ;; other snippets
-    (yas/load-directory "~/.emacs.d/jpablobr/yasnippet/snippets")
     (yas/load-directory "~/.emacs.d/jpablobr/yasnippets-rails/rails-snippets")
     (yas/load-directory "~/.emacs.d/jpablobr/yasnippets-shoulda")
     (yas/load-directory "~/.emacs.d/jpablobr/yasnippets-css-mode")
