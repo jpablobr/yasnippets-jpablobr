@@ -1,0 +1,3 @@
+#name : bulleted link
+# --
+ * [${1:link} ${2:description}] $0

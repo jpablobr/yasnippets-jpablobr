@@ -1,0 +1,5 @@
+#name : <%= each do |o| %>
+# --
+<%- ${1:collection}.each do |${1:$(substring text 0 1)}| -%>
+  ${3:<<}$0
+<%- end -%>
