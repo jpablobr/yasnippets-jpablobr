@@ -1,0 +1,6 @@
+#name : add-hook ...
+# --
+(add-hook '${1:what}-hook
+  (lambda()
+    $0
+    ))
