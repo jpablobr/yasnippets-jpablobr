@@ -1,3 +1,0 @@
-#name : Link
-# --
-[${1:link} ${2:description}] $0
