@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# key: contp
+# contributor: Translated from TextMate Snippet
+# name: context block post
+# --
+context "on POST to :${1:create}" do
+  setup { post :$1, :${2:user} => { ${3::${4:key} => ${5:value}${6:, :${7:key} => ${8:value}}} } }
+
+  ${9:should "${10:description}" do
+    $0
+  end}
+end

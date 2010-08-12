@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# key: shbrdenied
+# contributor: Translated from TextMate Snippet
+# name: should_be_restful denied
+# --
+should_be_restful do |resource|
+  resource.denied.actions  = :${1:all}
+  resource.denied.flash    = /${2:must be logged in}/i
+  resource.denied.redirect = '${3:login_url}'
+end

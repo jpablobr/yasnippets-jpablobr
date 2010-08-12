@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# key: contg
+# contributor: Translated from TextMate Snippet
+# name: context block get
+# --
+context "on GET to :${1:show}" do
+  setup { get :$1${2:, :id => ${3:1}} }
+
+  ${4:should "${5:description}" do
+    $0
+  end}
+end

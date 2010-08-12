@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: assemail
+# contributor: Translated from TextMate Snippet
+# name: assert_sent_email
+# --
+assert_sent_email${1: do |email|
+  email.${2:subject|from|to|body} ${3:==} ${4:'${5:anything}'}$0
+end}
