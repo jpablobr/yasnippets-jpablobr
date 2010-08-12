@@ -1,0 +1,13 @@
+#contributor : Satoshi Nishimura <nishim314@gmail.com>
+#name : pro ...(...)
+#group : definitions
+# --
+
+/**
+ * ${1:Short description.}
+ *
+ * ${2:Description}
+ */
+protected function ${3:name}(${4:$args}) {
+   $0
+}

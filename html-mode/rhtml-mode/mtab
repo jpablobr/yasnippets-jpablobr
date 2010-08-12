@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : drop_table :${1:table}${2: [press tab twice to generate create_table]}
+#group : migration
+# --
+drop_table :${1:table}${2: [press tab twice to generate create_table]}

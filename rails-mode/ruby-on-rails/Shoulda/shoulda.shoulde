@@ -1,0 +1,8 @@
+#name : should_eventually "..." do ... end
+#key : shoulde
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_eventually "${description}" do
+  $0
+end

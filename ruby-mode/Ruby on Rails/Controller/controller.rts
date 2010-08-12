@@ -1,0 +1,6 @@
+#name : render :text => " ... ", :status =>  ... 
+#key : rts
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :text => "${Text here...}", :status => ${401}

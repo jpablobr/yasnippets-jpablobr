@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : logger.error { "${1:message}" }$0
+#group : model
+# --
+logger.error { "${1:message}" }$0

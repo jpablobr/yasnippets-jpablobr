@@ -1,0 +1,6 @@
+#name : render :file => " ... "
+#key : rf
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :file => "${filepath}"

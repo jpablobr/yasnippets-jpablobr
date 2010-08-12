@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : redirect_to(${2:${10:model}s_path})
+#group : controller
+# --
+redirect_to(${2:${10:model}s_path})

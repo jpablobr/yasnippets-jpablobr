@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: Typo3 Table
+# key: tt
+# --
+
+#
+# Table structure for table '${1:tx_gc}'
+#
+# ${2:Description}
+#
+CREATE TABLE $1 (
+       uid int(11) NOT NULL auto_increment,
+       pid int(11) DEFAULT '0' NOT NULL,
+       tstamp int(11) DEFAULT '0' NOT NULL,
+       crdate int(11) DEFAULT '0' NOT NULL,
+       cruser_id int(11) DEFAULT '0' NOT NULL,
+
+       ${3:# Additional fields}
+
+       PRIMARY KEY (uid),
+       KEY parent (pid)
+);

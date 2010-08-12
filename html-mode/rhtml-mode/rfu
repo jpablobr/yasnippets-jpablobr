@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : render :file => "${1:filepath}", :use_full_path => ${2:false}
+#group : controller
+# --
+render :file => "${1:filepath}", :use_full_path => ${2:false}

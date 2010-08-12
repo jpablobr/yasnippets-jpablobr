@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_redirected_to ${10:${2:model}s_path}
+#group : test
+# --
+assert_redirected_to ${10:${2:model}s_path}

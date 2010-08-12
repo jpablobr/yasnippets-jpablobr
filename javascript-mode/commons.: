@@ -1,0 +1,7 @@
+# name : key: value,
+# key : :
+# group : commons
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+${1:key}: ${2:"${3:value}"}${4:, }$0

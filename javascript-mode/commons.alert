@@ -1,0 +1,7 @@
+# name : alert(...)
+# key : alert.1
+# group : commons
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+alert('${1:test}'${2: + ${3:value}});$0

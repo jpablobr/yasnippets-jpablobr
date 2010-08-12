@@ -1,0 +1,9 @@
+# name : ifu
+# key : ifu
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+if (${1:myObject} == undefined) ${2:{
+  $0
+\}}

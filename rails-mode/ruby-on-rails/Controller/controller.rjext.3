@@ -1,0 +1,6 @@
+#name : render :json => ... .to_ext_json update
+#key : rjext.3
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :json => @${1:`(singularize-string (rails/cur-res-title))`}.to_ext_json(:success => @$1.update_attributes(params[:$1]))

@@ -1,0 +1,6 @@
+#contributor : Arvid Jakobsson <arvid.jakobsson@gmail.com>
+#name : debug(...)
+#group : control structure
+# --
+debug($$1);
+$0

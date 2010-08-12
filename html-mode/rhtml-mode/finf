@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : find(:first${1:, :conditions => ['${2:${3:field} = ?}', ${5:true}]})
+#group : controller
+# --
+find(:first${1:, :conditions => ['${2:${3:field} = ?}', ${5:true}]})

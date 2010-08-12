@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : text_field_tag :${1:attribute}
+#group : view
+# --
+<% text_field_tag :${1:attribute}

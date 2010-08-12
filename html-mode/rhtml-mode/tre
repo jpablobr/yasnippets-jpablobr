@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : t.rename(:${1:old_column_name}, :${2:new_column_name})
+#group : somewhere
+# --
+t.rename(:${1:old_column_name}, :${2:new_column_name})
+$0

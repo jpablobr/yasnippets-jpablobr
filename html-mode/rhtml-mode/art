@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_redirected_to ${2::action => "${1:index}"}
+#group : test
+# --
+assert_redirected_to ${2::action => "${1:index}"}

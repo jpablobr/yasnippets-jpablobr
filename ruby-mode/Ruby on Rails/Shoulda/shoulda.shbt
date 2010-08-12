@@ -1,0 +1,6 @@
+#name : should_belong_to ...
+#key : shbt
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_belong_to :${1:object}$0

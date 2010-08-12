@@ -1,0 +1,9 @@
+# name : han
+# key : han
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+handler: function($1) {
+  $0
+}

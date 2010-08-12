@@ -1,0 +1,14 @@
+# name : ef
+# key : ef
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+/**
+ * ${9:Function description}${2:
+ * @param \{${3:String}\} ${4:paramName} ${5:parameter description}}${6:
+ * @return \{${7:String}\} ${8:Return value description}}
+ */
+${1:functionName}: function($4) {
+  $0
+}

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : f.password_field :${1:attribute}
+#group : view
+# --
+f.password_field :${1:attribute}

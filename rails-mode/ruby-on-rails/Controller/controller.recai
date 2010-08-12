@@ -1,0 +1,6 @@
+#name : redirect_to :controller => " ... ", :action => " ... ", :id =>  ... 
+#key : recai
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+redirect_to :controller => "${items}", :action => "${show}", :id => ${@item}

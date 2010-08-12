@@ -1,0 +1,7 @@
+# name : super
+# key : super
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+${1:MyClassName}.superclass.${2:constructor}.${3:apply}(${4:this, arguments});$0

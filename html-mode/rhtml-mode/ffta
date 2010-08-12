@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : f.text_area :${1:attribute}
+#group : view
+# --
+f.text_area :${1:attribute}

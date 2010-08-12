@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: ifnotequal
+# key: ifnotequal
+# binding: "keybinding"
+# contributor: Thejaswi Puthraya <thejaswi.puthraya@gmail.com>
+# group: template
+# --
+{% ifnotequal $1 $2 %}
+  $3
+{% else %}
+  $4
+{% endifnotequal %}
+$0

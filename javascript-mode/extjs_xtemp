@@ -1,0 +1,7 @@
+# name : xtemp
+# key : xtemp
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+new Ext.XTemplate('${1}')$0

@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name :  form_tag('/posts')
+#group : view
+# --
+  form_tag('/posts')
+  # => <form action="/posts" method="post">

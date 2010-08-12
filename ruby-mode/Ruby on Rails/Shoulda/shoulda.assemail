@@ -1,0 +1,6 @@
+#name : assert_sent_email
+#key : assemail
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+assert_sent_email

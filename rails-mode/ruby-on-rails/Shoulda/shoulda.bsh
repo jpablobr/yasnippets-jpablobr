@@ -1,0 +1,8 @@
+#name : before_should "..." do ... end
+#key : bsh
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+before_should "$1" do
+  $0
+end

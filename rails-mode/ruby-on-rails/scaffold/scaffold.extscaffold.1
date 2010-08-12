@@ -1,0 +1,52 @@
+# name : ExtScaffold Controller
+# key : extscaffold.1
+# group : rails.scaffold
+# contributor : crazycode@gmail.com
+# --
+include ExtScaffold
+
+rescue_from ActiveRecord::RecordNotFound do |exception|
+  render :json => { :success => false }, :status => :not_found
+end
+
+before_filter :find_${1:`(singularize-string (rails/cur-res-title))`}, :only => [ :update, :destroy ]
+before_filter :find_${1:$(pluralize-string text)}, :only => [ :index ]
+belong_to_right "ADMIN_USER"
+$0
+# GET /${1:$(pluralize-string text)}
+# GET /${1:$(pluralize-string text)}.ext_json
+def index
+  respond_to do |format|
+    format.html     # index.html.erb (no data required)
+    format.ext_json { render :json => @${1:$(pluralize-string text)}.to_ext_json(:class => ${2:`(decamelize-string (singularize-string (rails/cur-res-title)))`}, :methods => [:role_names, :role_ids], :count => $2.count(options_from_search($2))) }
+    format.json { render @${1:$(pluralize-string text)}.to_json }
+  end
+end
+
+# POST /${1:$(pluralize-string text)}
+def create
+  @$1 = $2.new(params[:$1])
+  render :json => @$1.to_ext_json(:success => @$1.save)
+end
+
+# PUT /${1:$(pluralize-string text)}/1
+def update
+  render :json => @$1.to_ext_json(:success => @$1.update_attributes(params[:$1]))
+end
+
+# DELETE /${1:$(pluralize-string text)}/1
+def destroy
+  @$1.destroy
+  head :ok
+end
+
+protected
+
+def find_$1
+  @$1 = $2.find(params[:id])
+end
+
+def find_${1:$(pluralize-string text)}
+  pagination_state = update_pagination_state_with_params!($2)
+  @${1:$(pluralize-string text)} = $2.find(:all, options_from_pagination_state(pagination_state).merge(options_from_search($2)))
+end

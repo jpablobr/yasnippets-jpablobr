@@ -1,0 +1,15 @@
+# Charles Magid (ChasMan or Chasmanrors)
+#name : routes resources
+#group : config
+# --
+# One level
+#   map.resources :posts do |post|
+#     post.resources :comments
+#   end
+#
+# Two levels
+ map.resources :publishers do |publisher|
+  publisher.resources :magazines do |magazine|
+    magazine.resources :photos
+  end 
+ end 

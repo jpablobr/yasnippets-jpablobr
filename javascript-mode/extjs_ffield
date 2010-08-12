@@ -1,0 +1,10 @@
+# name : ffield
+# key : ffield
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+{
+  fieldLabel: '${1:Label}',
+  name:       '${2:$1}'
+}$0

@@ -1,0 +1,20 @@
+# name : epanel
+# key : epanel
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+/**
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends Ext.Panel
+ */
+${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}} = Ext.extend(Ext.Panel, {
+
+  initComponent: function() {
+    Ext.applyIf(this, {
+      $0
+    });
+    
+    ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.initComponent.apply(this, arguments);
+  }
+});

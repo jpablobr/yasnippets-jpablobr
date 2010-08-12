@@ -1,0 +1,12 @@
+#contributor : Satoshi Nishimura <nishim314@gmail.com>
+#name : function ...(...)
+#group : definitions
+# --
+/**
+ * ${1:Short description.}
+ *
+ * ${2:Description}
+ */
+function ${3:name}(${4:$args}) {
+   $0
+}

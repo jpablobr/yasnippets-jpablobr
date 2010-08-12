@@ -1,0 +1,20 @@
+#name : define Store
+#key : store
+#group : extjs
+# --
+var ${1:store} = new Ext.data.Store({
+    proxy: new Ext.data.HttpProxy({
+        url: ${2:url},
+        method: '${3:GET}'
+    }),
+    reader: new Ext.data.JsonReader({
+        root: '${4:rootName}',
+        id: '${5:id}',
+        totalProperty: 'results'
+    },[
+        { name: '$5', mapping: '$4.$5' },
+        nmap$0
+    ]),
+    remoteSort: true, // turn on server-side sorting
+    sortInfo: {field: 'id', direction: 'ASC'}
+});

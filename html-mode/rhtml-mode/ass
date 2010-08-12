@@ -1,0 +1,7 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_select '${1:path}'${2:, :${3:text} => ${4:'${5:inner_html}'}}${6: do
+#group : test
+# --
+assert_select '${1:path}'${2:, :${3:text} => ${4:'${5:inner_html}'}}${6: do
+	$0
+end}

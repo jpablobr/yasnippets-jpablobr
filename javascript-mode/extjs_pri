@@ -1,0 +1,7 @@
+# name : pri
+# key : pri
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+primaryKey: "$1",$0

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : render :inline => "${1:<%= 'hello' %>}"
+#group : controller
+# --
+render :inline => "${1:<%= 'hello' %>}"

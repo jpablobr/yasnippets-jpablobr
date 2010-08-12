@@ -1,0 +1,7 @@
+# name : timeout
+# key : timeout
+# group : commons
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+setTimeout(function() {$0}${2:}, ${1:10});

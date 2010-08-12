@@ -1,0 +1,12 @@
+#contributor : Satoshi Nishimura <nishim314@gmail.com>
+#name : pub ...(...)
+#group : definitions
+# --
+/**
+ * ${1:Short description.}
+ *
+ * ${2:Description}
+ */
+public function ${3:name}(${4:$args}) {
+   $0
+}

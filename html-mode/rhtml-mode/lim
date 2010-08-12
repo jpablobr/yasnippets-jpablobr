@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : link_to ${1:model}.${2:name}, ${3:${4:$1}_path(${14:$1})}
+#group : view
+# --
+link_to ${1:model}.${2:name}, ${3:${4:$1}_path(${14:$1})}

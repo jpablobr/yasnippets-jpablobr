@@ -1,0 +1,6 @@
+#name : should_redirect_to "..."
+#key : shre
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_redirect_to "${2:object}_path(@$2)"$0

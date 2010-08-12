@@ -1,0 +1,9 @@
+# name : each
+# key : each
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+Ext.each(${1:array}, ${2:function(${3:item}) {
+  $0
+\}}${4:, this});

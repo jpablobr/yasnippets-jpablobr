@@ -1,0 +1,6 @@
+#name : assert_valid ...
+#key : asv
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+assert_valid ${1:object}

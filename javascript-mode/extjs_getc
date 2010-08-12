@@ -1,0 +1,7 @@
+# name : getc
+# key : getc
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+ExtMVC.getController('$1')$0

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : redirect_to(${2:${10:parent}_${11:child}_path(${12:@}${13:${10}})})
+#group : controller
+# --
+redirect_to(${2:${10:parent}_${11:child}_path(${12:@}${13:${10}})})

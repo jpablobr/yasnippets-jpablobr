@@ -1,0 +1,18 @@
+# name : fieldset
+# key : fieldset
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+{
+  xtype:      'fieldset',${1:
+  title:      '${2:Title}',}
+  autoHeight: true,${3:
+  defaults:   {
+    xtype:  'textfield',
+    anchor: "-20"
+  \},}
+  items: [
+    $0
+  ]
+}

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : render :action => "${1:action}", :layout => "${2:layoutname}"
+#group : controller
+# --
+render :action => "${1:action}", :layout => "${2:layoutname}"

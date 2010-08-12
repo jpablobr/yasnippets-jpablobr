@@ -1,0 +1,6 @@
+# name : ,'models[attr]': 'name'
+# key : lbli
+# group : extjs
+# contributor : crazycode@gmail.com
+# --
+,'${1:models}[${2:attribute}]': '${3:name}'

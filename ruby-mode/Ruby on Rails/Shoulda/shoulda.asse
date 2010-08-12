@@ -1,0 +1,6 @@
+#name : assert_same_elements ..., ...
+#key : asse
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+assert_same_elements ${1:ary1}, ${2:ary2}

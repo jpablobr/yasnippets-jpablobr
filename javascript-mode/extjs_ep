@@ -1,0 +1,12 @@
+# name : ep
+# key : ep
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+/**
+ * @property ${1:propertyName}
+ * @type ${2:Boolean}
+ * ${3:Property description}
+ */
+${1:propertyName}: ${0}

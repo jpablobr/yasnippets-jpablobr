@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : t.text :${1:title}
+#group : migration
+# --
+t.text :${1:title}
+$0

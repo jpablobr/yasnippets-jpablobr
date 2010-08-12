@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert(${1:var} = assigns(:${1}), "Cannot find @${1}")
+#group : test
+# --
+assert(${1:var} = assigns(:${1}), "Cannot find @${1}")
+$0

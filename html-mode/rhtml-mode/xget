@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : xhr :get, :${1:show}${2:, :id => ${3:1}}$0
+#group : somewhere
+# --
+xhr :get, :${1:show}${2:, :id => ${3:1}}$0

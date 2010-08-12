@@ -1,0 +1,11 @@
+# name : textfield
+# key : textfield
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+{
+  xtype:      'textfield',
+  fieldLabel: '${1:Label}',
+  name:       '${2:${1/(.*)/\l$1/}}'
+}$0

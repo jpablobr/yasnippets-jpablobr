@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : .radio_box :${1:attribute}, :${2:tag_value}
+#group : view
+# --
+.radio_box :${1:attribute}, :${2:tag_value}

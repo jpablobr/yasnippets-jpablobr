@@ -1,0 +1,9 @@
+# name : fun
+# key : fun
+# group : commons
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+function ${1:function_name} (${2:argument}) {
+	${0:// body...}
+}

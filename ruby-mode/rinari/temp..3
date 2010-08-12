@@ -1,0 +1,16 @@
+# Charles Magid (ChasMan or Chasmanrors)
+#name : temp 3
+#group : temp
+# --
+
+<% form_for(@item) do |f| %>
+  <%= f.error_messages %>
+  
+    <p>
+    <%= f.label :day %><br />
+    <!-- 1, 2 and 3 are the values to be assigned to :my_integer_for_my_instance_var -->
+    <%= f.select :my_integer_for_my_instance_var, [["My_Display_One",1], ["My_Display_Two",2], ["My_Display_Three",3]] %>
+    </p>
+
+    <p><%= f.submit "Create" %></p>
+<% end %>

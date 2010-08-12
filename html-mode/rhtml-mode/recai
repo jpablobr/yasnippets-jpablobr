@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : redirect_to :controller => "${1:items}", :action => "${2:show}", :id => ${0:@item}
+#group : controller
+# --
+redirect_to :controller => "${1:items}", :action => "${2:show}", :id => ${0:@item}

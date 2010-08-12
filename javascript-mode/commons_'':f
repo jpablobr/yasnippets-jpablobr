@@ -1,0 +1,9 @@
+# name : '':f
+# key : '':f
+# group : commons
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+'${1:${2:#thing}:${3:click}}': function(element){
+	$0
+}${10:,}

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : stylesheet_link_tag {1::all}${2:, :cache => ${3:true}}
+#group : somewhere
+# --
+stylesheet_link_tag {1::all}${2:, :cache => ${3:true}}

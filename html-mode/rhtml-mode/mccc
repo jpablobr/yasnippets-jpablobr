@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : t.column ${1:title}, :${2:string}
+#group : migration
+# --
+t.column ${1:title}, :${2:string}
+mccc$0

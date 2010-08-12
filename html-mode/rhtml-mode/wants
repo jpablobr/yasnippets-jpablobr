@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : wants.${1:js|xml|html}${2: { $0 \}}
+#group : somewhere
+# --
+wants.${1:js|xml|html}${2: { $0 \}}

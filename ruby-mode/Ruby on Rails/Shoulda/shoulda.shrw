@@ -1,0 +1,7 @@
+#name : should_respond_with ...
+#key : shrw
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_respond_with :${1:success}
+$0

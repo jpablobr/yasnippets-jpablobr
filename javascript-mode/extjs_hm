@@ -1,0 +1,7 @@
+# name : hm
+# key : hm
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+hasMany: $0

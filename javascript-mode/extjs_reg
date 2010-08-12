@@ -1,0 +1,7 @@
+# name : reg
+# key : reg
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+Ext.reg('${1:xtype}', ${2:ClassName});$0

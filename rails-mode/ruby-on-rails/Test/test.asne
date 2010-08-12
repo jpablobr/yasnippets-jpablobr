@@ -1,0 +1,6 @@
+#name : assert_not_equal  ... 
+#key : asn
+#group : rails.test
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+assert_not_equal ${unexpected}, ${actual}

@@ -1,0 +1,12 @@
+# name : inite
+# key : inite
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+/**
+ * Sets up events emitted by this ${1:component}
+ */
+initEvents: function() {
+  $0
+}

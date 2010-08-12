@@ -1,0 +1,5 @@
+#name : reader name...maping
+#key : nmap
+#group : extjs
+# --
+{ name: '${1:root}[${2:attr}]', mapping: '$1.$2' },

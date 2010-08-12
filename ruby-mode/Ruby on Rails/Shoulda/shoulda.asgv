@@ -1,0 +1,6 @@
+#name : assert_good_value ..., ..., ...
+#key : asgv
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+assert_good_value ${1:Model}, :${2:attribute}, ${3:value}

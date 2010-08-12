@@ -1,0 +1,11 @@
+# name : Ext.(X)Template
+# key : xt
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+${1:var ${2:tpl} = }new Ext.${4:X}Template(${3:
+  '<tpl for=".">',
+    $0
+  '</tpl>'}
+);

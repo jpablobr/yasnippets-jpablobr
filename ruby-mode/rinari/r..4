@@ -1,0 +1,41 @@
+# Charles Magid (ChasMan or Chasmanrors)
+#name : Hash Examples
+#group : ruby
+# --
+puts "----This is most common way of defining a hash, typically symbol is used as a key"
+h1 = { :a => 100, :b => 200, :c=>300, 56 => "Sang Shin" }
+puts h1[:b]
+puts h1[56]
+
+puts "----Less common way of defining a hash"
+h2 = Hash[:a => 100, :b => 200, :c => 300, 56 => "Sang Shin" ]
+puts h2[:b]
+puts h2[56]
+
+puts "----Less common way of defining a hash"
+h3 = Hash[:a, 100, :b, 200, :c, 300, 56, "Sang Shin"]
+puts h3[:b]
+puts h3[56]
+
+puts "----Define a hash with default value"
+h = Hash.new("Go Fish")
+h[:a] = 100
+h[:b] = 200
+puts h[:a]           #=> 100
+puts h[:c]           #=> "Go Fish"
+
+puts "----Define a hash"
+h = { :a => 100, :b => 200, :c=>300, 56 => "Sang Shin" }
+puts h
+
+puts "----Display keys"
+h.each_key {|key| puts key }
+
+puts "----Display values"
+h.each_value {|value| puts value }
+
+puts "----Display key value pairs"
+h.each {|key, value| puts "#{key} is #{value}" }
+
+puts "----Display key value pairs"
+h.each_pair {|key, value| puts "#{key} is #{value}" }

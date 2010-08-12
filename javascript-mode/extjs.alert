@@ -1,0 +1,14 @@
+# name : Ext.Msg.alert
+# key : alert.extjs
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+Ext.Msg.alert(
+  '${1:title}',
+  '${2:description}',
+  function() {
+    $0
+  },
+  ${3:this}
+);

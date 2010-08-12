@@ -1,0 +1,14 @@
+# name : find
+# key : find
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+${1:ModelName}.findById(${2:id}, {${3:
+  loadFailure: function(response) {
+    
+  \},}
+  loadSuccess: function(${4:${1/(.+)\.([A-Za-z]*)$/\l$2/}}) {
+    $0
+  }
+});

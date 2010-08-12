@@ -1,0 +1,11 @@
+# name : if...else...
+# key : ife
+# group : commons
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+if (${1:true}) {
+    `yas/selected-text`$0
+} else {
+
+};

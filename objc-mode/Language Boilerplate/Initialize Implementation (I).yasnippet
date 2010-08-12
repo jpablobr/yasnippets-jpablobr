@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# key: I
+# contributor: Translated from TextMate Snippet
+# name: Method: Initialize
+# condition: (and (yas/objc-implementation-p) (not (yas/objc-method-body-p)))
+# --
++ (void)initialize
+{
+	[[NSUserDefaults standardUserDefaults] registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys:
+		$0@"value", @"key",
+		nil]];
+}

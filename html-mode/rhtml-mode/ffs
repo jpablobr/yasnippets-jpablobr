@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : f.submit "${1:Submit}"${2:, :disable_with => '${3:$1ing...}'}
+#group : view
+# --
+f.submit "${1:Submit}"${2:, :disable_with => '${3:$1ing...}'}

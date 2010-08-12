@@ -1,0 +1,6 @@
+#name : render :nothing =>  ... , :status =>  ... 
+#key : rns
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :nothing => ${true}, :status => ${401}

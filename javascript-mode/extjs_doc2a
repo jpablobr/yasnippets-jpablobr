@@ -1,0 +1,11 @@
+# name : doc2a
+# key : doc2a
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+/**
+ * ${1:Method Description}
+ * @param {${2:String}} ${3:paramName} ${4:Parameter Description}
+ * @param {${5:String}} ${6:paramName} ${7:Parameter Description}
+ */$0

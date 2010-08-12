@@ -1,0 +1,7 @@
+#name : should_render_template ...
+#key : shrt
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_render_template :${template}
+$0

@@ -1,0 +1,12 @@
+# Charles Magid (ChasMan or Chasmanrors)
+#name : form for sub-model
+#group : views
+# --
+<% form_for [@post, Comment.new] do |f| %>
+  <p>
+    <%= f.label :body, "New Comment" %> <br />
+    <%= f.text_area :body %>
+  </p>
+  <p><%= f.submit "Add Comment" %></p>
+<% end -%>
+

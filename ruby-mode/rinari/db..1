@@ -1,0 +1,16 @@
+# Charles Magid (ChasMan or Chasmanrors)
+#name : drop table unless found
+#group : databases
+# --
+    drop_table :jobs unless self.check_table('jobs')
+
+  def self.check_table(name)
+    begin
+      User.connection.execute("select 1 from #{name}")
+      say "Checking For Table: #{name} => Table Found"
+      return false;
+    rescue
+      say "Checking For Table: #{name} => Table Not Found"
+      return true;
+    end
+  end

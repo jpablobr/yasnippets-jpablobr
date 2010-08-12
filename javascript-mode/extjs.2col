@@ -1,0 +1,24 @@
+# name : 2col
+# key : 2col
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+items: [
+  {
+    layout: 'column',
+    defaults: {
+      columnWidth: 0.5,
+      layout:      'form',${1:
+      style:       'padding: 0 5px;'}
+    },
+    items: [
+      {
+        $0
+      },
+      {
+
+      }
+    ]
+  }
+]

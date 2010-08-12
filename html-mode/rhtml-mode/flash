@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : flash[:${1:notice}] = "${2:Successfully created...}"$0
+#group : controller
+# --
+flash[:${1:notice}] = "${2:Successfully created...}"$0

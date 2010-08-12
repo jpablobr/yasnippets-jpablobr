@@ -1,0 +1,7 @@
+# Charles Magid (ChasMan or Chasmanrors)
+#name : collection_select
+#group : views
+# --
+
+<%= f.label :category_id %>
+<%= f.collection_select :category_id, Category.find(:all), :id, :name %>

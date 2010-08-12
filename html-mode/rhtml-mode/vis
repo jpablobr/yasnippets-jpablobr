@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : page.visual_effect :${1:toggle_slide}, ${2:"${3:DOM ID}"}
+#group : somewhere
+# --
+page.visual_effect :${1:toggle_slide}, ${2:"${3:DOM ID}"}

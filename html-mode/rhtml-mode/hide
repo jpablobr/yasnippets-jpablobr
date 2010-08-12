@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : page.hide ${1:"${2:id(s)}"}
+#group : view
+# --
+page.hide ${1:"${2:id(s)}"}

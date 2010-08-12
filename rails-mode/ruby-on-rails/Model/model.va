@@ -1,0 +1,6 @@
+#name : validates_associated : ... 
+#key : va
+#group : rails.model
+#condition : (rails/model?)
+# --
+validates_associated :${attr}

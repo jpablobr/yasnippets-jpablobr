@@ -1,0 +1,7 @@
+#name : should_eventually "..."; shouldes
+#key : shouldes
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_eventually "${description}"
+shouldes$0

@@ -1,0 +1,7 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_no_difference "${1:Model}.${2:count}" do
+#group : test
+# --
+assert_no_difference "${1:Model}.${2:count}" do
+  $0
+end

@@ -1,0 +1,7 @@
+# name : temp
+# key : temp
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+new Ext.Template('${1}')${0}

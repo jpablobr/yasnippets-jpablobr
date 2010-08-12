@@ -1,0 +1,8 @@
+The conversion utility for textmate snippets to yasnippets for ruby on rails did not yield useful enough snippets.  This repository was created to make a more rational collection of snippets all based off of single letters and menu preferences.   
+
+$GOOGLE_YASNIPPET_ROOT/yasnippet/snippets/text-mode/yasnippets-for-rinari
+
+Symbolically link 
+
+$GOOGLE_YASNIPPET_ROOT/yasnippet/snippets/text-mode/rinari-mode -> yasnippets-for-rinari
+$GOOGLE_YASNIPPET_ROOT/yasnippet/snippets/text-mode/ruby-mode -> yasnippets-for-rinari

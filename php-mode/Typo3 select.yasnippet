@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Typo3 Select
+# key: tsel
+# --
+$res = $GLOBALS['TYPO3_DB']->exec_SELECTquery(
+	${1:$fields}, 
+	${2:$from}, 
+	${3:$where}, 
+	${4:$order}
+);
+
+if (!$res) {
+   fb($GLOBALS['TYPO3_DB']->sql_error($res));
+}
+
+while ($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)) {
+	  		$0
+}

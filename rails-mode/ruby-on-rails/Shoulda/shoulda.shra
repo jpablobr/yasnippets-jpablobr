@@ -1,0 +1,6 @@
+#name : should_require_attributes ...
+#key : shra
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_require_attributes :${attribute}

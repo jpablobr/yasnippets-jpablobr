@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : render :file => "${1:filepath}"
+#group : controller
+# --
+render :file => "${1:filepath}"

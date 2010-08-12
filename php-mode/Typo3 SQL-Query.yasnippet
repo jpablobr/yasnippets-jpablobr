@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Typo3 SQL-Query
+# key: tq
+# --
+$res = $GLOBALS['TYPO3_DB']->sql_query(${1:$query});
+
+if (!$res) {
+   fb($GLOBALS['TYPO3_DB']->sql_error($res));
+}
+
+while ($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)) {
+	  	 $0
+}

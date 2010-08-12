@@ -1,0 +1,9 @@
+# name : if(this.fireEvent(...)){...}
+# key : bfe
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+if (${1:this}.fireEvent('${2:eventName}'${3:, ${4:params}})) {
+  $0
+}

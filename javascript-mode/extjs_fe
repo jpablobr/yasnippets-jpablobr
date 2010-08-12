@@ -1,0 +1,7 @@
+# name : fe
+# key : fe
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+${1:this}.fireEvent('${2:eventName}'${3:, ${4:params}});

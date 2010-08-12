@@ -1,0 +1,7 @@
+# name : on
+# key : on
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+${1:this}.on('${2:click}', ${4:function($5) {$0\}}, ${3:this});

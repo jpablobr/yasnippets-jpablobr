@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : xhr :delete, :${1:destroy}, :id => ${2:1}$0
+#group : somewhere
+# --
+xhr :delete, :${1:destroy}, :id => ${2:1}$0

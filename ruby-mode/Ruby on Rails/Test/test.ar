@@ -1,0 +1,6 @@
+#name : assert_raises  ...  { $. }
+#key : ar
+#group : rails.test
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+assert_raises ${Exception} { $. }

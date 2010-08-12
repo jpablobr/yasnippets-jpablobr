@@ -1,0 +1,6 @@
+#name : render :file => " ... ", :use_full_path =>  ... 
+#key : rfu
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :file => "${filepath}", :use_full_path => ${false}

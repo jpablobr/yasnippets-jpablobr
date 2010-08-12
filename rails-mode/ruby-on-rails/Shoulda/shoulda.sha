@@ -1,0 +1,6 @@
+#name : should_assign_to ...
+#key : sha
+#group : rails.shoulda
+#condition : (or (rails/unit-test?) (rails/functional-test?))
+# --
+should_assign_to :${1:name}$0

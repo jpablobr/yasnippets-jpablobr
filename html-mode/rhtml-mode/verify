@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : verify :only => [:$1], :method => :post, :render => {:status => 500, :text => "use HTTP-POST"}
+#group : somewhere
+# --
+verify :only => [:$1], :method => :post, :render => {:status => 500, :text => "use HTTP-POST"}

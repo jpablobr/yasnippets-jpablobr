@@ -1,0 +1,7 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : ${1:map}.resource :${2:resource}${10: do |${11:$2}|
+#group : model
+# --
+${1:map}.resource :${2:resource}${10: do |${11:$2}|
+  $0
+end}

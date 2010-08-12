@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : RAILS_DEFAULT_LOGGER.debug "${1:message}"$0
+#group : somewhere
+# --
+RAILS_DEFAULT_LOGGER.debug "${1:message}"$0

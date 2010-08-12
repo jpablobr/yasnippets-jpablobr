@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : f.file_field :${1:attribute}f.file_field :${1:attribute}
+#name : 
+#group : view
+# --
+f.file_field :${1:attribute}

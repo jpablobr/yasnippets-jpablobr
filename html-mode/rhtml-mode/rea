@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : redirect_to :action => "${1:index}"
+#group : controller
+# --
+redirect_to :action => "${1:index}"

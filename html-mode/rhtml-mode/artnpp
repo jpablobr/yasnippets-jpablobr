@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_redirected_to ${10:${2:parent}_${3:child}_path(${4:@}${5:${2}})}
+#group : test
+# --
+assert_redirected_to ${10:${2:parent}_${3:child}_path(${4:@}${5:${2}})}

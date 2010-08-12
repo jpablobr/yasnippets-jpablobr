@@ -1,0 +1,7 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : respond_to do |wants|
+#group : somewhere
+# --
+respond_to do |wants|
+	wants.${1:html}${2: { $0 \}}
+end

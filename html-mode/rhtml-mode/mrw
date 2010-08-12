@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : mattr_accessor :${0:attr_names}
+#group : model
+# --
+mattr_accessor :${0:attr_names}

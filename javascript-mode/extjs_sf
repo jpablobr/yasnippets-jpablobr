@@ -1,0 +1,7 @@
+# name : sf
+# key : sf
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+String.format("$1", $0)

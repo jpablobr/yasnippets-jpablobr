@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_response :${1:success}, @response.body$0
+#group : test
+# --
+assert_response :${1:success}, @response.body$0

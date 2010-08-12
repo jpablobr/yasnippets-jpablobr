@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : assert_rjs :${1:replace}, ${2:"${3:dom id}"}
+#group : test
+# --
+assert_rjs :${1:replace}, ${2:"${3:dom id}"}

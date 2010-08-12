@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: Typo3 Insert-query
+# key: tins
+# --
+$res = $GLOBALS['TYPO3_DB']->exec_INSERTquery(
+	${1:$TABLE}, 
+	${2:$FIELD_VALUES}, 
+	${3:$NO_QUOTE}
+);
+if (!$res) {
+	fb($GLOBALS['TYPO3_DB']->sql_error($res));
+} else {
+	$0
+}

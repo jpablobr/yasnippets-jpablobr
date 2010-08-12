@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : t.timestamps
+#group : somewhere
+# --
+t.timestamps
+t.$0

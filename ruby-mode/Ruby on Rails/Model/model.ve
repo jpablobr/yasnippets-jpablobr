@@ -1,0 +1,6 @@
+#name : validates_exclusion_of : ... 
+#key : ve
+#group : rails.model
+#condition : (rails/model?)
+# --
+validates_exclusion_of :${attr}

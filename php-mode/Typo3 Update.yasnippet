@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: Typo3 Update
+# key: tupd
+# --
+$res = $GLOBALS['TYPO3_DB']->exec_UPDATEquery(
+	 ${1:$TABLE}, 
+	 ${2:$WHERE}, 
+	 ${3:$FIELD_VALUES}, 
+	 ${4:$NO_QUOTE}
+);
+ 
+if (!$res) {
+   fb($GLOBALS['TYPO3_DB']->sql_error($res));
+} else {
+  $0
+}

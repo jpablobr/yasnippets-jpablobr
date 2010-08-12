@@ -1,0 +1,6 @@
+#name : render :partial => " ... "
+#key : rp
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :partial => "${item}"

@@ -1,0 +1,6 @@
+#name : render :action => " ... "
+#key : ra
+#group : rails.controller
+#condition : (rails/controller?)
+# --
+render :action => "${action}"

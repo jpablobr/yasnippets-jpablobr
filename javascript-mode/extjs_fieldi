@@ -1,0 +1,7 @@
+# name : fieldi
+# key : fieldi
+# group : extjs
+# contributor : crazycode@gmail.com
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+{name: 'id', type: '${1:int}'   }$0

@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : render :partial => "${1:item}", :collection => ${2:@$1s}
+#group : controller
+# --
+render :partial => "${1:item}", :collection => ${2:@$1s}

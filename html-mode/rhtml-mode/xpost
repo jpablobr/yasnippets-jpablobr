@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : xhr :post, :${1:create}, :${2:object} => { $3 }
+#group : somewhere
+# --
+xhr :post, :${1:create}, :${2:object} => { $3 }

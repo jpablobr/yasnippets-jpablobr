@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : link_to "${1:link text...}", :action => "${2:index}"
+#group : view
+# --
+link_to "${1:link text...}", :action => "${2:index}"

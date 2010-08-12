@@ -1,0 +1,5 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : page.insert_html :${1:top}, ${2:"${3:id}"}, :${4:partial => "${5:template}"}
+#group : view
+# --
+page.insert_html :${1:top}, ${2:"${3:id}"}, :${4:partial => "${5:template}"}

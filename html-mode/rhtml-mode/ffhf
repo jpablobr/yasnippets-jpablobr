@@ -1,0 +1,6 @@
+# This was cloned from a TextMate bundle for yasnippet.
+#name : f.hidden_field :${1:attribute}
+#name : f.hidden_field :${1:attribute}
+#group : view
+# --
+f.hidden_field :${1:attribute}
