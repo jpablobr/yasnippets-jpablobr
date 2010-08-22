@@ -1,0 +1,4 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+- f.buttons do
+	${1:= f.commit_button${2: '${3:Submit}'}}$0

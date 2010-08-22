@@ -1,0 +1,4 @@
+# This was cloned from a TextMate bundle for yasnippet.
+# --
+- semantic_form_for(${1:@${2:object}}${3:, :html => {:method => ${4::put}\}}) do |${5:f}|
+	$0
