@@ -1,6 +1,0 @@
-#name : describe RspecClass
-# --
-if
-  ${1:Guard} -> ${2:Clause};
-  true -> $0
-end

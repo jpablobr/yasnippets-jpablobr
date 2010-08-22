@@ -1,3 +1,0 @@
-#name : list comprehension
-# --
-[${1:F(Var)} || ${2:Var} <- ${3:List}]

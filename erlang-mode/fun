@@ -1,5 +1,0 @@
-#name : fun() -> end
-# --
-fun() ->
-      $0
-end
