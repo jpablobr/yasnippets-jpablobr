@@ -1,0 +1,3 @@
+#name : spec . -c --format specdoc
+# --
+spec ${1:path} -c --format specdoc

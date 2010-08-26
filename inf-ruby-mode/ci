@@ -1,0 +1,3 @@
+#name : svn commit -m
+# --
+svn commit -m "${1:message}" ${2:files}

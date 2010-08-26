@@ -1,0 +1,3 @@
+#name : svn cp
+# --
+svn cp http://subversion.ny.jpmorgan.com/svn/repos/retail_lending_it_gateway/access_admin/${1:trunk} http://subversion.ny.jpmorgan.com/svn/repos/retail_lending_it_gateway/access_admin/tags/${2:uat}-${3:2.3.0} -m "tagging $1 for $2-$3 deploy"
