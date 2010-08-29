@@ -1,6 +1,0 @@
-#name : render :text => " ... "
-#key : rt
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :text => "${Text here...}"

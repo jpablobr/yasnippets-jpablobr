@@ -1,6 +1,0 @@
-#name : render :partial => " ... ", :object =>  ... 
-#key : rpo
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :partial => "${item}", :object => ${object}

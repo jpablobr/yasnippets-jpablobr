@@ -1,6 +1,0 @@
-#name : render :json => ... .to_ext_json save
-#key : rjext.2
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :json => @${1:`(singularize-string (rails/cur-res-title))`}.to_ext_json(:success => @$1.save)

@@ -1,6 +1,0 @@
-#name : assert_redirected_to :controller => " ... "
-#key : art
-#group : rails.test
-#condition : (or (rails/unit-test?) (rails/functional-test?))
-# --
-assert_redirected_to :controller => "${controller}"

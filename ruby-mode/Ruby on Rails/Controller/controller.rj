@@ -1,6 +1,0 @@
-#name : render :json => " ... "
-#key : rj
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :json => @${1:`(singularize-string (rails/cur-res-title))`}.to_json

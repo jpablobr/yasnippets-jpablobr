@@ -1,6 +1,0 @@
-#name : render :partial => " ... ", :status =>  ... 
-#key : rps
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :partial => "${item}", :status => ${500}

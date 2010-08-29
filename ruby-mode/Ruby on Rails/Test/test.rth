@@ -1,6 +1,0 @@
-#name : require test_helper
-#key : rth
-#group : rails.test
-#condition : (or (rails/unit-test?) (rails/functional-test?))
-# --
-require File.dirname(__FILE__) + '/../test_helper'

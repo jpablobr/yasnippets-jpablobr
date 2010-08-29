@@ -1,6 +1,0 @@
-#name : render :action => " ... ", :layout => " ... "
-#key : ral
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :action => "${action}", :layout => "${layoutname}"

@@ -1,6 +1,0 @@
-#name : render_component :controller => " ... "
-#key : rcec
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render_component :controller => "${items}"

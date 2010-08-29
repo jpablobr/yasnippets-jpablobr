@@ -1,6 +1,0 @@
-#name : render :inline => " ... "
-#key : ri
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :inline => "${<%= 'hello' %>}"

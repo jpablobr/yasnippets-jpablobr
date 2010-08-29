@@ -1,6 +1,0 @@
-#name : render :inline => " ... ", :locals => {  ...  => " ... " }
-#key : ril
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :inline => "${<%= 'hello' %>}", :locals => { ${name} => "${value}" }

@@ -1,6 +1,0 @@
-#name : render :partial => " ... ", :collection =>  ... 
-#key : rpc
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :partial => "${item}", :collection => ${items}

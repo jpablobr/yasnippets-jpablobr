@@ -1,6 +1,0 @@
-#name : around_filter :...
-#key : arf
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-around_filter :${filter}

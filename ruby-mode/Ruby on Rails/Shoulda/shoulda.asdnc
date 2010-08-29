@@ -1,6 +1,0 @@
-#name : assert_does_not_contain ..., ...
-#key : asdnc
-#group : rails.shoulda
-#condition : (or (rails/unit-test?) (rails/functional-test?))
-# --
-assert_does_not_contain ${1:collection}, ${2:x}

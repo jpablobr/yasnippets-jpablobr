@@ -1,9 +1,0 @@
-#name : respond_to do |format|
-#key : rest
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-respond_to do |format|
-  format.html$1
-end
-$0

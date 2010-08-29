@@ -1,6 +1,0 @@
-#name : render_component :action => " ... "
-#key : rcea
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render_component :action => "${index}"

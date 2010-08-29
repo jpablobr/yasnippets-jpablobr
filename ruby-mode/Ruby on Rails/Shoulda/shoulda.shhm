@@ -1,6 +1,0 @@
-#name : should_have_many ...
-#key : shhm
-#group : rails.shoulda
-#condition : (or (rails/unit-test?) (rails/functional-test?))
-# --
-should_have_many :${objects}$0

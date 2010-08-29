@@ -1,6 +1,0 @@
-#name : has_and_belongs_to_many
-#key : habtm
-#group : rails.model
-#condition : (rails/model?)
-# --
-has_and_belongs_to_many :${1:model}

@@ -1,7 +1,0 @@
-#name : should_set_the_flash_to ...
-#key : shsf
-#group : rails.shoulda
-#condition : (or (rails/unit-test?) (rails/functional-test?))
-# --
-should_set_the_flash_to :${1:value}
-$0

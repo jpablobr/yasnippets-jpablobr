@@ -1,6 +1,0 @@
-#name : redirect_to :controller => " ... ", :action => " ... "
-#key : reca
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-redirect_to :controller => "${items}", :action => "${list}"

@@ -1,6 +1,0 @@
-#name : render :json => ... .to_ext_json index
-#key : rjext.1
-#group : rails.controller
-#condition : (rails/controller?)
-# --
-render :json => @${1:`(pluralize-string (rails/cur-res-title))`}.to_ext_json(:class => ${2:`(decamelize-string (singularize-string (rails/cur-res-title)))`}, :count => @$1.size)
