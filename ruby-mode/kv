@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # key: kv
-#name : :key => "value"
+# name : :key => "value"
+# group : general
 ## condition: "source.ruby"
 # --
 :$1 => "$0"
