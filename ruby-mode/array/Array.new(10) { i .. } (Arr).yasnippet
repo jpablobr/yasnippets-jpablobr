@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: Array
+# name: Array.new(10) { |i| .. }
+## condition: "source.ruby"
+# --
+Array.new(${1:10}) { ${2:$(if (string= yas/text "") "" "|")}${2:i}${2:$(if (string= yas/text "") "" "|")} $0 }
