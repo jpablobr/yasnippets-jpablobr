@@ -1,0 +1,3 @@
+#name : my $first_arg = shift($ARGV) or die("Usage $0 is \n");
+# --
+my $${1:first_arg} = shift($ARGV) or die("Usage $0 is ${2:usage} \n");

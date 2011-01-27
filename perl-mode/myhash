@@ -1,0 +1,3 @@
+#name : my %hash = hash;
+# --
+my %${1:hash} = (${2:hash_key} => ${3:hash_value});
