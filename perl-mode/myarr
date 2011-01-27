@@ -1,0 +1,3 @@
+#name : my @array = array;
+# --
+my @${1:array} = ${2:array_name};

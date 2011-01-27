@@ -1,4 +1,4 @@
-#name : eval { ... } if ($@) { ... }
+o#name : eval { ... } if ($@) { ... }
 # --
 eval {
     ${1:# do something risky...}
