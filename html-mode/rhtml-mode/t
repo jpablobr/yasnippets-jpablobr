@@ -1,3 +1,6 @@
-#name : t('...')
+# This was cloned from a TextMate bundle for yasnippet.
+#name : t.binary :${1:title}${2:, :limit => ${3:2}.megabytes}
+#group : somewhere
 # --
-t('$0')
+t.binary :${1:title}${2:, :limit => ${3:2}.megabytes}
+t.$0
