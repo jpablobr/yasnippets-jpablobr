@@ -1,0 +1,20 @@
+#contributor: Krickette Murabayashi <kmu@tsdye.com>
+#name: Table figure 
+#key: tsd-table-fig
+# --
+
+\\begin{table}[htb!]
+   \\centering
+   \\topcaption{$1}
+   \\begin{tablefonts}
+      \\begin{tabularx}{\textwidth}{${2:column alignments}}
+        \\toprule \\textbf{${3:column heading}} & \\textbf{${4:column heading}} & \\textbf{${5:column heading}} \\\\
+   \\midrule
+        %data goes here
+   
+   \\bottomrule
+   %\\multicolumn{number of columns}{alignment}{\\fn{1}Footnote here.}
+   \\end{tabularx}
+   \\end{tablefonts}
+\\label{tab:$6}
+\\end{table}

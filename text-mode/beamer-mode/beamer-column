@@ -1,0 +1,9 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#name : \begin{column} ... \end{column}
+#key : b-col
+# --
+
+\begin{column}{${1:0.5}\textwidth}
+$0
+\end{column}
+

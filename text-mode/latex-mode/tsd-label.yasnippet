@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# contributor : Thomas S. Dye <tsd@tsdye.com>
+# name: Mailing label
+# key: tsd-label
+# --
+
+%&LaTeX
+\\documentclass[12pt,pdftex]{letter}
+\\usepackage[pdftex]{color}
+\\usepackage[avery5164biglabel]{envlab} 
+
+\\definecolor{DarkMahogany}{cmyk}{0,0.87,0.68,0.35}
+\\makelabels 
+\\newlength{\\tsd}
+\\settowidth{\\tsd}{\\itshape \\footnotesize T. S. Dye \\& Colleagues,
+Archaeologists, Inc.}
+
+\\begin{document}
+% FirstLabel{Row}{Col}
+\\FirstLabel{${6:$$(yas/choose-value '("1" "2" "3"))}}{${7:$$(yas/choose-value '("1" "2"))}}
+\\startlabels 
+\\mlabel{\\begin{minipage}{\\tsd}\\raggedleft\\itshape\\textcolor{DarkMahogany}
+    {T. S. Dye \\& Colleagues, Archaeologists, Inc. \\\\ 
+      735 Bishop St., Suite 315 \\\\ 
+      Honolulu, Hawai`i 96813}\\end{minipage}}%
+{${1:name} \\\\ ${2:street address} \\\\ ${3:city}, ${4:state}
+${5:zip}}
+
+\\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

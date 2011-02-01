@@ -1,0 +1,150 @@
+# contributor: Krickette Murabayashi <kmu@tsdye.com>
+# name: Inventory survey report
+# key: tsd-ais
+# --
+
+%&LaTex
+\\documentclass[numbib,minion,glossaries]{tsdarticle}
+\\usepackage{makeidx}
+\\makeindex
+\\author{$1 \\and Thomas S. Dye, PhD}
+$0
+%tsd-ais-newcommand
+%tsd-tmk
+
+\\title{Archaeological Inventory Survey of \\project, \\tsdtmk, \\district, \\island, Hawai\`i\\thanks{Prepared for \\client, \\address.}}
+
+\\begin{document}
+
+\\maketitle
+\\tableofcontents
+%\\listoffigures
+%\\listoftables
+
+\\section{Introduction}
+\\label{chap:introduction}
+
+At the request of \\client, \\tsdye*\\ has completed an archaeological inventory survey at the site of the proposed \\project at .
+
+This report is drafted to meet the requirements and standards of state historic preservation law, as set out in Chapter 6e of the Hawai\`i Revised Statutes and the State Historic Preservation Division's \\textit{Rules Governing Standards for Archaeological Inventory Surveys and Reports}, \\S13--276.
+
+
+
+\\subsection{Survey Area}
+\\label{sec:survey_area}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!identification of survey area}
+
+%tsd-ais-survey
+
+\\subsection{Environment}
+\\label{sec:environ}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!environment description}
+
+% Describe environment
+% Topography
+% Vegetation
+% Geology and soils
+% Climate, including rainfall
+% Hydrology
+
+\\subsection{Background Research}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!background research}
+
+This section provides information on the cultural and archaeological history of the region of the project area. This information can be used to predict the types and distributions of historic properties that might be present. The information also gives context for understanding and evaluating the significance of historic properties.
+
+\\subsubsection{Historic Background}
+% Historic background, including:
+% Traditional Hawaiian land use
+% Mahele-era land use
+% Post-mahele land use
+% Summarize documents and materials used in review
+% List LCAs--number, land use of each plot, locate on map
+
+\\subsubsection{Archaeological Background}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!archaeological background}
+% Archaeological background
+% Map of prior survey coverage
+% Synthesis of historical and archaeological information
+
+% Predictions of site types
+
+\\section{Methods}
+\\label{sec:methods}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!methods}
+
+
+%tsd-ais-methods
+
+\\section{Field Survey Results}
+\\label{sec:field_survey_results}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!field survey findings}
+
+% State inventory number and any previous numbers
+% reference to a previous study, if previously recorded
+% formal type of property
+% description of each property
+% size and horizontal extent
+% major features' architectual components and temporal relations
+% presence or absence of surface remains
+% presence or absence of surface deposits
+% USDA soil descriptions with Munsell colors
+% stratigraphic profile drawings
+% representative photographs, illustrations, or both
+% drafted map plan with major feature and method used to map
+% site integrity
+% assessment of site function(s)
+% assessment of site age with absolute dating when available
+% evaluation of site significance
+
+\\section{Laboratory Results}
+\\label{sec:laboratory_results}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!laboratory findings}
+
+
+\\section{Data Analyses}
+\\label{sec:data_analyses}
+
+
+\\section{Discussion and Conclusions}
+\\label{chap:conclusions}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!summary of findings}
+
+% total number of sites found
+% map locating all arch properties and boundaries, USGS
+
+\\index{Hawai\`i Administrative Rules!\\S13--276--7!significance assessments}
+\\index{Hawai\`i Administrative Rules!\\S13--276--8!recommendations}
+% table presenting sites with State number, type, and function
+% summaries of each type found, if more than one
+% re-evaluation of ideas on history of land use
+% if more than 5 sites within a type
+% table which itemizes each site and its structures, function
+% map showing distribution of sites within type
+
+\\subsection{Consultant Information}
+\\label{sec:consultants}
+\\index{Hawai\`i Administrative Rules!\\S13--276--5!consultation process}
+
+% personnel consulting, name and qualifications
+% methods of identifying and contacting knowledgable people
+% names of knowledgable people consulted or characterization
+% summary of additional archaeological properties identified, if any
+% information on archaeolgical site function, if any
+
+%\\appendix
+%\\input{}
+
+\printglossary[type=main, style=tsdlist]
+\printglossary[type=hawaiian, style=tsdlist]
+\printglossary[type=acronym, style=tsdlist]
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{chicago}
+\bibliography{tsd,${2:local}}
+\printindex
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-natset
+# name : Cell Natural Setting
+# --
+
+The \\tsdproject\\ lies at an elevation of ca.\\ $1~ft.\\ above sea
+level. The soils underlying the area are classified as $2, $3 to $4
+percent slopes (${5:WAC}).  This series consists of ${6:description of
+series} \\citep{${7:$$(yas/choose-value '("satoetal73"
+"foote_et_al72"))}}. The project area receives $8--$9~in.\\ of
+rainfall annually \\citep{aaa_giambelluca:_climate}.
+$0

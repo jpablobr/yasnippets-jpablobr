@@ -1,0 +1,45 @@
+# -*- mode: snippet -*-
+# contributor : Thomas S. Dye <tsd@tsdye.com>
+# name: Letter, electronic
+# key: tsd-eletter
+# --
+
+%&LaTeX
+
+\\documentclass{tsdletter} 
+
+\\signature{\vspace{-0.5in}\includegraphics{${1:$$(yas/choose-value
+'("/Users/dk/tsdye-signature" "/Users/ekk/ekk-signature"
+"/Users/muffet/muffet-signature" "/Users/kpd/kpd-signature"
+"/Users/ces/ces-signature" "/Users/kmu/kmu-signature"))}} 
+\\\\
+${2:$$(yas/choose-value '("Thomas S. Dye \\\\\\\\ President" "Eric
+K. Komori \\\\\\\\ Vice President" "Elaine H. R. Jourdane \\\\\\\\
+Manager" "Kekapala P. Dye \\\\\\\\ Archaeologist" "Carl E. Sholin
+\\\\\\\\ Archaeologist" "Krickette Murabayashi \\\\\\\\ Editor"))}}
+
+\\tsdref{$3}
+\\subject{$4}
+
+\\begin{document}
+\\begin{letter}{${5:name} \\\\ ${6:street address} \\\\ ${7: city, state, zip}}
+\\opening{Dear $8:}
+
+$0
+
+${9:\begin{tabularx}{\textwidth}{XlX}
+ \multicolumn{3}{l}{The undersigned agrees to the terms of the
+   proposal:} \\
+   \\[0.5in]
+  \hrulefill & \hspace{0.5in} & \hrulefill \\
+   $5 & & Date \\ 
+ \end{tabularx}}
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

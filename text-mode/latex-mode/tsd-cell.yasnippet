@@ -1,0 +1,113 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# name: Cell tower report
+# key: tsd-cell
+# --
+
+ %&LaTeX
+\\documentclass[numbib,minion,glossaries]{tsdarticle}
+
+\\author{$1 \and Thomas S. Dye, PhD}
+
+$0%yasnippet instructions: Place point at the end of tsd-cell-xxx line
+%and hit TAB to expand. TAB to go through to spots that need to be
+%filled in.
+
+
+tsd-cell-newcommand
+tsd-tmk
+  
+\\title{Historic Properties Assessment for the Proposed \tsdproject,
+   \tsdahupuaa\ Ahupua`a, \tsddistrict\ District, \tsdisland\ Island,
+   \tsdtmk\thanks{Prepared for \tsdclient, \tsdclientaddress.}}
+
+\\begin{document}
+\\maketitle
+
+\\begin{compactdesc}
+tsd-cell-compactdesc 
+\\end{compactdesc}
+
+\\section{Introduction}
+\\label{sec:intro}
+
+tsd-cell-intro
+
+
+\\subsection{Project Area}
+\\label{sec:survey_area}
+
+tsd-cell-area
+
+tsd-cell-figs
+
+tsd-cell-siteplan
+
+\\subsection{Background Research}
+\\label{sec:Background_Research}
+
+This historic properties assessment includes the review of historic
+documents, maps, and archaeological reports on file at the State
+Historic Preservation Division library, the Hawaii State Library, and
+the State Bureau of Conveyances.  A field inspection of the proposed site
+was conducted by \\tsdye*.
+
+
+\\subsubsection{Natural Setting} 
+
+tsd-cell-natset
+
+
+\\subsubsection{Traditional and Historic Land Use}
+
+The physical environment, historic properties, and history of the area
+have been well documented in several studies
+
+
+\\subsubsection{Archaeological Background}
+\\label{sec:previousarch}
+
+%describe previous archaeological work in the area
+
+
+\\section{Results}
+\\label{chap:field_survey_results}
+
+%describe field inspection materials reviewed
+
+tsd-cell-photos
+
+
+\\section{Discussion and Conclusions}
+\\label{chap:conclusions}
+
+A review of the archaeological literature, historic maps, and
+information provided by \\tsdclient\\ shows that the project site has been
+modified by .  Therefore, the construction of the facility will have
+no direct effect on historic properties.
+
+
+% Comment or uncomment as needed
+% style=altlist another possibility
+\printglossary[type=main, style=tsdlist]
+\printglossary[type=hawaiian, style=tsdlist]
+% \printglossary[type=polynesian, style=tsdlist]
+% \printglossary[type=gazetteer, style=tsdlist]
+\printglossary[type=acronym, style=tsdlist]
+% \printglossary[type=oldenglish, style=tsdlist]
+% \printglossary[type=bio, style=tsdlist]
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{chicago}
+
+% Comment or uncomment as needed
+%\bibliography{tsd}
+\bibliography{tsd${2:,local}}
+
+\end{document}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

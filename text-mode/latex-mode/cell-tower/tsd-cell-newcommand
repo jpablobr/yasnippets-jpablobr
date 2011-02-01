@@ -1,0 +1,15 @@
+# * mode: snippet *
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-newcommand
+# name : Cell New Commands
+# --
+
+\\newcommand{\\tsdproject}{$1}
+\\newcommand{\\tsdclient}{${2:$$(yas/choose-value '("Bureau Veritas North America" "Hawai`i Environmental Consultants LLC"))}}
+\\newcommand{\\tsdclientaddress}{${3:$$(yas/choose-value '("970 North Kal\\\\={a}heo Avenue, Suite C-316, Kailua, HI 96734" "2051 Young St., Suite 126, Honolulu, HI 96826"))}}
+\\newcommand{\\tsdahupuaa}{$4}
+\\newcommand{\\tsddistrict}{$5}
+\\newcommand{\\tsdisland}{$6}
+\\newcommand{\\tsdlocation}{$7}
+\\newcommand{\\tsdcellcompany}{$8}
+$0

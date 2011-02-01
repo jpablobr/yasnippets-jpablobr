@@ -1,0 +1,8 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#name : \note{}
+#key : b-note
+# --
+
+\note[${1:item}]<${2:1}>{$0}
+
+

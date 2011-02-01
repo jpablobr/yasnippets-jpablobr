@@ -1,0 +1,9 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#name : \begin{frame} ... \end{frame}
+#key : b-frame
+# --
+
+\begin{frame}
+\frametitle{$1}
+$0
+\end{frame} 

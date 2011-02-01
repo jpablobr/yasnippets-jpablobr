@@ -1,0 +1,22 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#key : tsd-survey
+#name : Survey area
+# --
+
+
+\\subsection{Survey Area}
+\\label{sec:survey_area}
+
+The $1~acre survey area is located in the ahupua`a of $2, $3 District,
+Island of $4 (fig.~\ref{fig:location}).  It is identified on
+tax maps as ${5:\tsd_tmk}, and is owned by ${6:\tsd_client}.
+
+\begin{figure}[htb!]
+  \centering
+  \includemap{horizontal}{$8}
+  \caption[Survey area location]{Location of the survey area on a portion of the USGS $7 quadrangle.}
+  \label{fig:location}
+\end{figure}
+
+$0
+

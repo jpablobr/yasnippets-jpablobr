@@ -1,0 +1,89 @@
+# -*- mode: snippet -*-
+# name: Preservation plan
+# key: tsd-pres-plan
+# --
+
+%&LaTex
+\\documentclass[numbib,minion,glossaries]{tsdarticle}
+\\usepackage{makeidx}
+\\makeindex
+\\author{${1:$$(yas/choose-value '("Elaine H. R. Jourdane \\\\and"
+"Kekapala P. Dye \\\\and" "Carl E. Sholin \\\\and" "Eric K. Komori \\\\and"
+"Krickette Murabayashi \\\\and"))} Thomas S. Dye, PhD}
+$0
+
+% Expand snippets
+% This snippet asks for:
+% 1) Project name as it should appear following "the"
+% 2) Client's name, e.g. "Planning Solutions"
+% 3) Client's mailing address, as it should appear in \thanks{}
+% 4) Ahupua\`a name, with full diacriticals, e.g. "K\={u}ki\`o 1st"
+% 5) District name, e.g. "North Kona"
+% 6) Island name, e.g., "Hawai\`i"
+tsd-ais-newcommand
+
+% This snippet asks for the arguments to \tmk[island number]{zone}{division}{plat}{parcel}
+% Where zone and division are numbers, plat and parcel are filled with leading zeros to three digits
+tsd-tmk
+
+\\title{Long-term Preservation Plan for the \\project, \\ahupuaa\\
+Ahupua\`a, \\district\\ District, \\island\\ Island\\thanks{Prepared for \\client, \\address.}}
+
+\\begin{document}
+
+\\maketitle
+\\tableofcontents
+%\\listoffigures
+%\\listoftables
+
+%tsd-pres-abstract
+
+\\section{Introduction}
+\\label{sec:intro}
+
+At the request of \\client, \\tsdye*\ has prepared a long-term
+preservation plan for the \\project, located at \\ahupuaa, \\district,
+\\island. This plan was prepared pursuant to the State Historic Preservation
+Division's \textit{Rules Governing Requirements for Archaeological
+  Site Preservation and Development} \S13--277, which \`\`provides
+standards for preservation approaches to ensure proper preservation
+and a `no adverse' effect in the public's interest.''  In fact, this
+plan has been developed to benefit the public's interest.
+
+\\section{Consultation}
+\\label{sec:consultation}
+
+
+\\section{Preservation Plan}
+\\label{sec:plan}
+
+The plan covers preservation measures for ${3:how many} sites.
+
+% Expand the following snippet for each site in the plan
+%tsd-pres-site
+
+tsd-pres-site
+
+\\section{Implementation}
+\\label{sec:implementation}
+
+Within 30 days of the completion of the preservation measures outlined
+above, a letter announcing this fact will be sent to SHPD.  The letter
+will invite SHPD staff to perform a field inspection for the purpose
+of verifying successful implementation of the plan.
+
+
+\printglossary[type=main, style=tsdlist]
+\printglossary[type=hawaiian, style=tsdlist]
+\printglossary[type=acronym, style=tsdlist]
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{chicago}
+\bibliography{tsd${2:,local}}
+\printindex
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

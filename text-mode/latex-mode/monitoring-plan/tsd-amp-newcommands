@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: AMP New Commands
+# key: tsd-amp-newcommands
+# --
+
+\newcommand{\tsdproject}{$1} 
+\newcommand{\tsdahupuaa}{$2}
+\newcommand{\tsddistrict}{$3} 
+\newcommand{\tsdisland}{$4}
+\newcommand{\tsdlocation}{$5} 
+\newcommand{\tsdclient}{$6}
+\newcommand{\tsdclientaddress}{$7}
+\newcommand{\tsdstandards}{${8:$$(yas/choose-value '("the Secretary of
+the Interior's \\\\textit{Standards and Guidelines for Archaeological
+Documentation}" "\\\\textit{Rules Governing Standards for
+Archaeological Monitoring Studies and Reports}"))}}
+$0

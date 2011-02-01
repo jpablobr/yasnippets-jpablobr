@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# contributor : Thomas S. Dye <tsd@tsdye.com>
+# name: Letter, paper
+# key: tsd-letter
+# --
+
+%&LaTeX
+
+\documentclass{tsdletter}
+\signature{${1:Thomas S. Dye}\\\\${2:President}}
+\tsdref{$3}
+\subject{$4}
+
+\begin{document}
+\begin{letter}{${5:name} \\\\ ${6:street address} \\\\ ${7: city, state, zip}}
+\opening{Dear $8:}
+
+$0
+
+If you should have any questions, please feel free to call me at
+387--9352.
+
+\closing{Sincerely,}
+\end{letter}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

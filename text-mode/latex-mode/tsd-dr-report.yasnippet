@@ -1,0 +1,151 @@
+#contributor: Krickette Murabayashi <kmu@tsdye.com>
+#name: Data recovery report
+#key: tsd-dr-report
+# --
+
+%&LaTeX
+\\documentclass[minion,numbib,glossaries]{tsdarticle}
+\\usepackage{makeidx}
+\\makeindex
+\\author{$1 \\and Thomas S. Dye, PhD}  
+$0
+%tsd-datarecov-newcommands
+%tsd-tmk
+
+\\title{Archaeological Data Recovery for Site~\\tsdsite\\ at
+  \\tsdtmk, \\tsdahupuaa, \\tsddistrict, \\tsdisland\\thanks{Prepared for \\tsdclient, \\tsdclientaddress.}}
+
+\\begin{document}
+
+\\maketitle
+\\tableofcontents
+
+% Uncomment the following lines, as needed.
+% \\listoffigures
+% \\listoftables
+
+\\begin{abstract}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!management summary}
+  At the request of \\tsdclient, \\tsdye*\\ has prepared
+  an archaeological data recovery report for site \\tsdsite.  
+
+
+\\end{abstract}
+
+% -----------------------------------------------------------------
+
+\\section{Introduction}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!introduction}
+
+At the request of \\tsdclient, \\tsdye*\\ has prepared an archaeological data recovery report for site \\tsdsite\\ at \\tsdlocation, \\tsdahupuaa, \\tsddistrict, \\tsdisland, identified on tax maps as \\tsdtmk.
+
+
+
+\\subsection{Environment}
+
+%description of environment
+
+\\subsection{Historical Background}
+
+
+\\subsection{Archaeological Background}
+
+
+\\subsection{Organization of the Report}
+
+Data recovery represents one culmination of the historic preservation
+review process for traditional Hawaiian archaeological sites.  In one
+sense it is the research dividend for the hard work of inventory
+survey and review of background information, when the traditional
+archaeological focus on documenting change over time can finally be
+exercised.  
+
+%Section~\\ref{sec:research-objectives} discusses the
+%objectives that guided data recovery, where our goal was to bring the
+%history of the archaeological landscape to life.
+%Section~\\ref{sec:methods} outlines our ideas on how the research
+%objectives might be most effectively achieved at Kaiholena, where
+%erosion of site deposits has greatly diminished the possibilities for
+%productive excavations.  The results of fieldwork are presented in
+%section~\\ref{sec:fieldwork}, which proceeds from south to north
+%through the 29 historic properties that were subject to investigation.
+
+%Each site is described in detail with the aid of a map typically drawn
+%in the field at a scale of 1:100.  Most of the data recovery sites
+%were small, simple features, and maps of them reproduce well on a
+%standard printed page.  Four of the maps portray larger, more complex
+%sets of features, and these have been reproduced as oversize fold-out
+%maps in appendix~\\ref{cha:oversize-figures}.  Excavation results for
+%each site are summarized here as well, to set the context for
+%section~\\ref{sec:laboratory-results}, which presents the results of
+%laboratory analyses of dating materials, artifacts, and the
+%identification of wood charcoal, and vertebrate and invertebrate
+%faunal remains for the sites in which excavations were concentrated.
+%The results of small test excavations at sites with little cultural
+%material are more efficiently presented with the site descriptions and
+%can be found in chapter \\ref{cha:fieldwork}.  The laboratory results
+%in chapter~\\ref{cha:laboratory-results} are supplemented with
+%appendices that describe the basic data that were collected
+%(appendices~\\ref{app:strat} through \\ref{cha:charc-ident}) and the
+%categories used in classification of faunal remains and charcoal
+%(appendices~\\ref{cha:invert-faun-categ}, \\ref{cha:vert-faun-categ},
+%and \\ref{cha:taxa-ident-charc}).  Chapter~\\ref{cha:disc-concl}
+%summarizes what we were able to learn about the history of the
+%Kaiholena landscape.  Much of this---more than we anticipated going
+%into the project---is from our study of the remains of the surface
+%architecture, augmented modestly by the results of excavations, which
+%were constrained more than we had hoped by the ravages of erosion.
+
+\\section{Research Objectives}
+\\label{sec:research-objectives}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!research objectives}
+
+\\section{Methods}
+\\label{sec:methods}
+
+This section sets out field, laboratory, and analytical methods that were used to collect, process, categorize, and analyze materials from the historic properties at \\tsdlocation. The methods have been designed to maximize the probability that the historic properties will yield information that can be used to meet the research objectives.
+
+\\subsection{Field Methods}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!field methods}
+
+\\subsection{Laboratory Methods and Analyses}
+
+\\subsection{Disposition of Collections}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!archive location}
+
+All artifacts and other cultural material will be returned to the landowner at the conclusion of the project. Field notes and maps, digital photographs, and other field materials are archived at the offices of \\tsdye
+
+\\section{Fieldwork}
+\\label{sec:fieldwork}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!fieldwork findings}
+
+This chapter presents the results of fieldwork at the data recovery sites. It is organized
+
+%individual descriptions of each site studied: site number, reference to previous study (if previously recorded), formal type (c-shaped enclosure, platform, enclosure, etc), a description, findings, assessment of site function, assessment of site age.
+
+
+\\section{Laboratory Results}
+\\label{sec:laboratory-results}
+\\index{Hawai\`i Administrative Rules!\\S13--278--4!laboratory findings}
+
+\\section{Discussion and Conclusion}
+
+The primary purpose for this data recovery project has been 
+
+% -----------------------------------------------------------------
+
+% Comment or uncomment as needed
+% style=altlist another possibility
+\\printglossary[type=main, style=tsdlist]
+\\printglossary[type=hawaiian, style=tsdlist]
+% \\printglossary[type=polynesian, style=tsdlist]
+% \\printglossary[type=gazetteer, style=tsdlist]
+\\printglossary[type=acronym, style=tsdlist]
+% \\printglossary[type=oldenglish, style=tsdlist]
+% \\printglossary[type=bio, style=tsdlist]
+
+\\addcontentsline{toc}{section}{Bibliography}
+\\bibliographystyle{chicago}
+\\bibliography{tsd${2:,local}}
+\\printindex
+\\end{document}

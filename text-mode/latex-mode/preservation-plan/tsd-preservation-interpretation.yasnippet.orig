@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: tsd-preservation-interpretation
+# key: tsd-pres-interpret
+# --
+
+The interpretation measures proposed here include written material
+that will be reviewed and approved by SHPD.
+
+The proposed interpretive signs are designed to accomplish the
+following goals:
+
+\\begin{description}
+\\item[Public understanding]\\index{Hawai\`i Administrative
+Rules!\\S13--277--7!(b)(1) enhance public understanding} $1
+\\item[Cultural sensitivity]\\index{Hawai\`i Administrative
+Rules!\\S13--277--7!(b)(2) cultural sensitivity} $2
+\\item[Location]\\index{Hawai\`i Administrative
+Rules!\\S13--277--7!(b)(3) sign location} $3
+\\end{description}
+
+$0

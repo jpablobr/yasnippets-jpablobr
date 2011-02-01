@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-intro
+# name : Cell Introduction
+# --
+
+At the request of \\tsdclient, \\tsdye*\\ conducted an historic
+properties assessment of a parcel for the proposed \\tsdproject. The
+primary focus of the project was on the discovery and appropriate
+treatment of historic properties within the area of potential effect.
+The goals of the investigation were to determine whether the
+installation of ${1:a telecommunications facility, including an
+antenna monopole,} will have direct or visual effects on historic
+properties.
+$0

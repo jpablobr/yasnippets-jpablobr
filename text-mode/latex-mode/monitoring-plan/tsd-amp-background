@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: AMP Background
+# key: tsd-amp-background
+# --
+
+The following section gives a brief review of the physical
+environment, land history, and archaeological investigations in order
+to give context for the project.
+
+\subsection{Physical Environment} 
+
+The \tsdproject\ is located at \tsdlocation\ in the ahupua`a of \tsdahupuaa,
+\tsddistrict\ District on \tsdisland. The soil underlying the project area is
+${1:Manana silty clay}, $2 to $3 percent slopes (${4:MpE}). ${5:The Manana series
+consists of shallow, well-drained silty clay loams that developed in
+old alluvium and residuum derived from basalt and andesite}
+\citep{foote_et_al72}.
+
+The project area receives $6--$7~in.\ of rain annually
+\citep{aaa_giambelluca:_climate}. 
+The vegetation in the general area of the \tsdlocation\ consists of $8.
+$0
+
+\subsection{History}
+
+%Summarize history of the land.
+
+\subsection{Archaeological Background}
+
+%Summarize archaeological background.

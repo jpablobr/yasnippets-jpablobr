@@ -1,0 +1,11 @@
+# contributor: Krickette Murabayashi <kmu@tsdye.com>
+# name: Inventory Survey USGS Figure
+# key: tsd-ais-usgs
+# --
+
+\begin{figure}[htb!]
+  \centering \includemap{vertical}{$1}
+  \caption{Location of the \\project\\ on a portion of the USGS ${2:1996 `Ewa} quadrangle map.}
+  \label{fig:$3}
+\end{figure}
+$0

@@ -1,0 +1,9 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#name : \begin{columns} ... \end{columns}
+#key : b-cols
+# --
+
+\begin{columns}
+$0
+\end{columns}
+

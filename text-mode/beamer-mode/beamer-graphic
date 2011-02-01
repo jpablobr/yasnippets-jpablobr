@@ -1,0 +1,8 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#name : \includegraphics[]{}
+#key : b-g
+# --
+
+\begin{centering}
+\includegraphics[width=${1:0.5}\textwidth]{$2}\par
+\end{centering}

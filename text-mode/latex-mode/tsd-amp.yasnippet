@@ -1,0 +1,90 @@
+# -*- mode: snippet -*-
+# name: Archaeological Monitoring Plan
+# key: tsd-amp
+# --
+
+% &LaTeX
+\documentclass[minion,numbib,glossaries]{tsdarticle-koma}
+\usepackage{makeidx}
+\makeindex
+\author{$1 \and Thomas S. Dye, PhD}  
+$0
+tsd-amp-newcommands
+
+tsd-tmk
+
+\title{Archaeological Monitoring Plan for \tsdproject\ at
+  \tsdlocation, \tsdahupuaa\ Ahupua\`a, \tsddistrict\ District,
+  \tsdisland, \tsdtmk\thanks{Prepared for \tsdclient, \tsdclientaddress.}}
+
+\begin{document}
+
+\maketitle
+
+% Uncomment the following lines, as needed.
+% \listoffigures
+% \listoftables
+
+\begin{abstract}
+  At the request of \tsdclient, \tsdye*\ will conduct archaeological
+  monitoring at \tsdlocation, \tsdahupuaa\ Ahupua\`a, \tsddistrict\ District for
+  ground-disturbing activities associated with the construction of the
+  \tsdproject. Archaeological monitoring will focus on ${3:the
+  identification of subsurface remains associated with traditional
+  Hawaiian agriculture and collection of sufficient information to
+  mitigate adverse effects of construction activities.  Human remains
+  are not expected; if human remains are found they will be treated
+  according to a separate burial treatment plan.}
+\end{abstract}
+
+\tableofcontents
+
+% -----------------------------------------------------------------
+
+\section{Introduction}
+\label{sec:introduction}
+
+
+At the request of \tsdclient, \tsdye* has prepared an archaeological
+monitoring plan for the construction of \tsdproject\ at \tsdlocation\
+in \tsdahupuaa, \tsdisland.  The \tsdproject\ is identified on tax
+maps as \tsdtmk\ %(fig.~\ref{fig:location}).
+
+%\begin{figure}[htb!]
+%  \centering
+%  \includemap{horizontal}{location}
+%  \caption[Project location at \tsdlocation]{Project location at
+%    \tsdlocation.  Satellite image from Google Earth.}
+%  \label{fig:location}
+%\end{figure}
+
+\section{Background}
+
+tsd-amp-background  
+
+
+tsd-monitor-project-design
+
+% -----------------------------------------------------------------
+
+% Comment or uncomment as needed
+% style=altlist another possibility
+\printglossary[type=main, style=tsdlist]
+\printglossary[type=hawaiian, style=tsdlist]
+% \printglossary[type=polynesian, style=tsdlist]
+% \printglossary[type=gazetteer, style=tsdlist]
+\printglossary[type=acronym, style=tsdlist]
+% \printglossary[type=oldenglish, style=tsdlist]
+% \printglossary[type=bio, style=tsdlist]
+
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{chicago}
+\bibliography{tsd,${2:local}}
+\printindex
+\end{document}
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
+

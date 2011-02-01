@@ -1,0 +1,12 @@
+#contributor : Tom Dye <tsd@tsdye.com>
+#name : graphic column
+#key : b-g-col
+# --
+
+\begin{column}{$1\textwidth}
+  
+  \begin{centering}
+    \includegraphics[width = ${1:\textwidth}]{$2}\par
+  \end{centering}
+
+\end{column}

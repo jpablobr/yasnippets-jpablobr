@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-photos
+# name : Cell Site Photo Figures
+# --
+
+\\begin{figure}[htb!]
+  \\centering
+  \\includephoto{horizontal}{$1}
+  \\caption{View of proposed \\tsdproject, looking ${2:south}. Courtesy of 
+            \\tsdclient.}
+  \\label{fig:$3}
+\\end{figure}
+
+\\begin{figure}[htb!]
+  \\centering
+  \\includephoto{horizontal}{$4}
+  \\caption{View of proposed \\tsdproject, looking ${5:north}.  Courtesy of 
+            \\tsdclient.}
+  \\label{fig:$6}
+\\end{figure}
+$0

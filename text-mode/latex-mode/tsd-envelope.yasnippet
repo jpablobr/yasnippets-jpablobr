@@ -1,0 +1,36 @@
+# -*- mode: snippet -*-
+# contributor : Thomas S. Dye <tsd@tsdye.com>
+# name: Envelope
+# key: tsd-envelope
+# --
+
+%&LaTeX
+\\documentclass[12pt,pdftex,leftenvelopes]{letter}
+\\usepackage[pdftex]{color}
+\\usepackage[businessenvelope]{envlab} 
+
+\\definecolor{DarkMahogany}{cmyk}{0,0.87,0.68,0.35}
+\\makelabels 
+\\newlength{\\tsd}
+\\settowidth{\\tsd}{\\itshape \\footnotesize T. S. Dye \\& Colleagues,
+Archaeologists, Inc.}
+\\setlength{\\ToAddressLeftMargin}{2in}
+\\setlength{\\FromAddressLeftMargin}{50pt}
+\\setlength{\\FromAddressTopMargin}{18pt}
+
+\\begin{document}
+\\startlabels 
+
+\\mlabel{\\begin{minipage}{\\tsd}\\raggedleft\\itshape\\textcolor{DarkMahogany}
+    {T. S. Dye \\& Colleagues, Archaeologists, Inc. \\\\ 
+      735 Bishop St., Suite 315 \\\\ 
+      Honolulu, Hawai`i 96813 \\\\[-7pt] \\rule{\\tsd}{0.6pt}}\\end{minipage}}%
+{${1:name} \\\\ ${2:street address} \\\\ ${3:city}, ${4:state} ${5:zip} }
+
+$0
+\\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

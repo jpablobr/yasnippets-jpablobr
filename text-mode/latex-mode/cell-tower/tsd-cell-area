@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-area
+# name : Project Area Description
+# --
+
+\\tsdcellcompany\\ proposes to install ${1:a new 125~ft.\\ antenna
+pole mounted with nine panel antennas} on a parcel located at
+\\tsdlocation\\ in \\tsdahupuaa, \\tsdisland. The $2 \\texttimes\\
+$3~ft., $4~ft.\\squared\\ lease parcel is located in the
+${5:southeast} portion of a $6~ac.\\ parcel owned by $7 and identified
+as \\tsdtmk\\ (figs.~\\ref{fig:usgs},~\\ref{fig:google}).
+$0

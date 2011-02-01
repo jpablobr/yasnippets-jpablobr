@@ -1,0 +1,26 @@
+# contributor: Krickette Murabayashi <kmu@tsdye.com>
+# name: Data Recovery Plan Introduction
+# key: tsd-drplan-intro
+# --
+
+At the request of \\tsdclient, \\tsdye\\
+has prepared an archaeological data recovery plan for \\tsdsite\\ at \\tsdlocation\\ in \\tsdahupuaa, \\tsdisland\\
+identified on tax maps as \\tsdtmk.
+
+Site \\tsdsite\\ was identified by
+\\citet{$1} during ${2:inventory survey}
+of the parcel in ${3:2008}.  
+%description of site
+%description of cultural content
+%description of any radiocarbon analysis
+
+The inventory survey report recommends that ${4:data recovery be carried
+out near the two trenches where pit features were found associated
+with the charcoal-darkened sand}
+\\citep{${5:bassford07:_archaeol_inven_survey_of}}.  The SHPD concurred with
+the recommendation to conduct data recovery in its review letter
+accepting the inventory survey report (LOG NO: ${6:2007:2760}).
+Accordingly, this data recovery plan has been prepared by a
+fully-qualified archaeologist pursuant to Hawai`\i Administrative
+\\textit{Rules Governing Standards for Archaeological Data Recovery
+  Studies and Reports}, \\S13--278--3.

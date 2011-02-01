@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-compactdesc
+# name : Cell Title Page Description
+# --
+
+\\item[Applicant:] \\tsdclient.
+\\item[Applicant's Consultant:] \\tsdye
+\\item[Location:] \\tsdlocation, \\tsdahupuaa\\ Ahupua`a, \\tsddistrict\\ District, 
+\\tsdisland\\ Island. 
+\\item[Tax Map Key:] \\tsdtmk. 
+\\item[Request:] Proposed \\tsdproject.
+\\item[Direct Effect:] $1.
+\\item[Visual Effect:] $2.
+$0

@@ -1,0 +1,13 @@
+#contibutor: Krickette Murabayashi <kmu@tsdye.com>
+#name: Data Recovery New Commands
+#key: tsd-datarecov-newcommands
+# --
+
+\\newcommand{\\tsdsite}{${1:50}--${2:30}--${3:02}--${4:1234}}
+\\newcommand{\\tsdahupuaa}{$5}
+\\newcommand{\\tsddistrict}{$6}
+\\newcommand{\\tsdisland}{$7}
+\\newcommand{\\tsdlocation}{$8}
+\\newcommand{\\tsdclient}{$9}
+\\newcommand{\\tsdclientaddress}{$10}
+$0

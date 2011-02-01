@@ -1,0 +1,38 @@
+# -*- mode: snippet -*-
+# name: tsd-preservation-site
+# key: tsd-pres-site
+# --
+
+\\subsection{Site ${1:site-number}}
+\\label{sec:site$1}
+
+The proposed form of preservation is ${2:preservation$(yas/choose-value
+'("avoidance and protection" "stabilization" "rehabilitation"
+"restoration" "reconstruction"))} for site $1.\\index{Hawai\`i Administrative
+Rules!\\S13--277--3!(1) forms of preservation} It is further proposed that
+there be ${3:interpretation$(yas/choose-value '("no interpretation"
+"interpretation" "appropriate cultural use"))} of the
+site.\\index{Hawai\`i Administrative Rules!\\S13--277--3!(1) site
+interpretation}
+
+The proposed buffer zone for site $1 is ${4:10~m}.\\index{Hawai\`i Administrative
+Rules!\\S13--277--3!(2) buffer zones}
+
+Short-term protection measures ${5:short-term$(yas/choose-value
+'("are" "are not"))} proposed for site $1.\\index{Hawai\`i Administrative
+Rules!\\S13--277--3!(3) short-term protection measures}
+
+The consultation process for this significant historic property is
+described in section \\ref{sec:consultation} on page
+\\pageref{sec:consultation}.
+
+Long-term preservation measures ${6:long-term$(yas/choose-value
+'("are" "are not"))} proposed.\\index{Hawai\`i Administrative
+Rules!\\S13--277--3!(5) long-term preservation measures}
+
+% Expand the following snippet to detail long-term preservation measures
+%tsd-pres-longterm
+
+% Expand the following snippet to detail interpretive approaches
+%tsd-pres-interpret
+$0

@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# contributor : Krickette Murabayashi <kmu@tsdye.com>
+# key : tsd-cell-siteplan
+# name : Cell Site Plan
+# --
+
+The ${1:prefabricated equipment cabinets and associated equipment} will be installed on a $2 \\texttimes\\ $3~ft.\\ concrete
+slab. The maximum finished height of the antenna pole will be
+approximately $4~ft.\\ above ground. The entire facility will be enclosed with an $5~ft.\\ high chain-link fence.  Ground disturbance
+is expected for the installation of the ${6:antenna pole, equipment
+cabinet foundation, utility conduits, and fence posts}
+(fig.~\\ref{fig:siteplan}).
+
+\\begin{figure}[htb!]
+  \\centering
+  \\includemap{horizontal}{$7}
+  \\caption{Proposed \\tsdproject\\ plan, adapted from a plan provided
+    courtesy of \\tsdclient.}
+  \\label{fig:siteplan}
+\\end{figure}
+
+According to the FCC Nationwide Programmatic Agreement, the APE for
+direct effects on historic properties includes the area of potential
+ground disturbance during the installation of the ${6:antenna pole, equipment cabinet foundation, utility conduits, and fence posts}. The APE for
+visual effects on historic properties for a tower 200~ft.\\ or less
+is the area within ca.~0.5~mi.\\ of the tower.
