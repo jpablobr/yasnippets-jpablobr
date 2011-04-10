@@ -1,8 +1,0 @@
-# contributor : Tom Dye <tsd@tsdye.com>
-# name : latex-tangle
-# key : lt
-# --
-
-#+begin_src ${1:latex} :tangle ${2:yes$$(yas/choose-value '("yes" "no"))}
-$0
-#+end_src

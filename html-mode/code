@@ -1,5 +1,3 @@
-#name : code
+#name : <code>...</code>
 # --
-<code>
-  $0
-</code>
+<code>$0</code>

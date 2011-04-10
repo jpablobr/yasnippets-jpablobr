@@ -1,3 +1,4 @@
-#name : span
+#contributor : Jimmy Wu <frozenthrone88@gmail.com>
+#name : <span>...</span>
 # --
-<span>$0</span>
+<span>$1</span>
